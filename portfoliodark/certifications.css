@@ -1,0 +1,73 @@
+body{
+    background-color: #14213d;
+    font-family:"Nunito",sans-serif;
+}
+#navbar .nav-item .nav-link{
+    color:#e5e5e5;
+}
+#navbar .nav-item .nav-link:hover,#navbar .nav-item .nav-link::selection{
+    color:#fcbf49;
+    text-shadow: 2px 2px 8px #e5e5e5;
+    font-weight:600;
+}
+#navbar .navbar-brand{
+    /* font-weight:100; */
+    font-size:1.8rem;
+    color:#e5e5e5;
+    font-family:"Luckiest Guy";
+    letter-spacing:1px;
+}
+#navbar{
+    background-color:#081c15;
+}
+.active{
+  color:#fcbf49 !important;
+}
+.dropdown-item{
+    background:#081c15;
+    color:white;
+    border-bottom: 1px solid silver;;
+}
+.dropdown-item:nth-last-child(1){
+    border-bottom: none;
+}
+.dropdown-menu{
+    background-color:#081c15;
+    border:1px solid silver;
+    border-top:none;
+    border-radius:10px;
+    box-shadow: 1px 1px 10px silver;
+}
+.dropdown-item:hover,.dropdown-item::selection{
+    color:#fcbf49;
+    text-shadow: 2px 2px 8px #e5e5e5;
+    font-weight:600;
+    background-color:#081c15;
+}
+
+.carousel{
+    margin-top: 70px !important;
+}
+.carousel-item img{
+    height:40rem;
+}
+
+.carousel{
+    border:5px solid #081c15;
+    border-bottom: 40px solid #081c15;
+    border-left: 30px solid #081c15;
+    border-right: 30px solid #081c15;
+}
+.carousel-control-next-icon,.carousel-control-prev-icon{
+    height:50px;
+    width:30px;
+}
+.carousel-control-prev-icon{
+    margin-left: -190px;
+}
+.carousel-control-next-icon{
+    margin-right: -190px;
+}
+.carousel-indicators{
+    margin-bottom:-25px;
+}

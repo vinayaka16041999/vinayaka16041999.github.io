@@ -1,0 +1,58 @@
+body,html{
+    /* background-image:url(img/skills.jpeg); */
+    font-family:"Nunito",sans-serif;
+    height:100%;
+    margin:0;
+}
+#navbar .nav-item .nav-link{
+    color:#e5e5e5;
+}
+#navbar .nav-item .nav-link:hover,#navbar .nav-item .nav-link::selection{
+    color:#fcbf49;
+    text-shadow: 2px 2px 8px #e5e5e5;
+    font-weight:600;
+}
+#navbar .navbar-brand{
+    /* font-weight:100; */
+    font-size:1.8rem;
+    color:#e5e5e5;
+    font-family:"Luckiest Guy";
+    letter-spacing:1px;
+}
+#navbar{
+    background-color:#081c15;
+}
+.active{
+  color:#fcbf49 !important;
+}
+.dropdown-item{
+  background:#081c15;
+  color:white;
+  border-bottom: 1px solid silver;;
+}
+.dropdown-item:nth-last-child(1){
+  border-bottom: none;
+}
+.dropdown-menu{
+  background-color:#081c15;
+  border:1px solid silver;
+  border-top:none;
+  border-radius:10px;
+  box-shadow: 1px 1px 10px silver;
+}
+.dropdown-item:hover,.dropdown-item::selection{
+  color:#fcbf49;
+  text-shadow: 2px 2px 8px #e5e5e5;
+  font-weight:600;
+  background-color:#081c15;
+}
+/* .bg-img{
+    width:100%;
+    height:710px !important;
+    margin-top:50px;
+} */
+.bg-img{
+    width:96rem !important;
+    height:45.3rem !important;
+    margin-top: 35px;
+}
